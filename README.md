@@ -15,3 +15,8 @@ I found an open dataset on Kaggle containing the historical bitcoin prices from 
 
 ### Cleaning:
 
+*Transform the data column into the Unix format.
+*Making it the index (When working with timeseries the index needs to be in date format).
+*Use the reshape method to get rid of the NaN. (***I reshaped it so that each line would represent the average price of a given month.***)
+
+
