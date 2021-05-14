@@ -1,6 +1,6 @@
 ## Bitcoin-Price-Prediction-ARIMA
 
-Given my background in the financial industry I thought It  would be interesting to try and make a price prediction model for bitcoin.
+I have a background in the financial industry I thought It  would be interesting to try and make a price prediction model for bitcoin.
 
 ### Questions:
 
@@ -42,6 +42,25 @@ We will use a seasonal ARIMA model so the next sep is to determine the values of
 * `d` is the degree of differing
 * `P` Q and D are the same but for the seasonal part of the ARIMA model.
 * `M` is the number f periods each season.
+
+ After finding the best combination of this values, we will fit our model, and analyze the residues and check if our model is non - stationary. 
+
+#### Note: 
+When doing this process, the goal is to fit as best as you can your model. 
+
+I have done two things:
+
+First, I used all the data without separating our data set in Train and Test, as it is common when fitting a model for statistical purposes.
+
+![Alt text](https://github.com/CacorinoDias/Bitcoin-Price-Prediction-ARIMA-/blob/master/Images/Fitted_model.PNG?raw=true "Title")
+
+Then, I did the same process but took out the last year and triend to predict the prices for 2020 and 2021.
+
+![Alt text](https://github.com/CacorinoDias/Bitcoin-Price-Prediction-ARIMA-/blob/master/Images/prediction.PNG?raw=true "Title")
+
+
+
+
 
 
 
