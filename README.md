@@ -20,5 +20,4 @@ I found an open dataset on Kaggle containing the historical bitcoin prices from 
 *Use the reshape method to get rid of the NaN. (***I reshaped it so that each line would represent the average price of a given month.***)
 
 
-![Alt text](Bitcoin-Price-Prediction-ARIMA-\blob\master\Images\Monthly_Reshaped.PNG?raw=true "Title")
-[What is this](Images\Monthly_Reshaped.PNG?raw=true "Title")
+![Alt text](https://github.com/CacorinoDias/Bitcoin-Price-Prediction-ARIMA-\blob\master\Images\Monthly_Reshaped.PNG?raw=true "Title")
