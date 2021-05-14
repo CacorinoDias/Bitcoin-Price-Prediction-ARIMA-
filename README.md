@@ -59,6 +59,17 @@ Then, I did the same process but took out the last year and triend to predict th
 ![Alt text](https://github.com/CacorinoDias/Bitcoin-Price-Prediction-ARIMA-/blob/master/Images/prediction.PNG?raw=true "Title")
 
 
+### Colcusions:
+
+As you can see though I was, in my opinion, able to fit a model in a decent way, my model proved to be incapable of making any good predictions.
+
+Either, I did something wrong, as this was my first time playing with time series and prediction models, or this is not the best model to apply for this particular asset.
+
+In the future I would like to do these things:
+* Apply an ARIMA model to, for example a different asset. (I thing if I keep on training I will be able to find if I did something wrong).
+* Try to apply a different model to the this bitcoin data set and compare the results from different ones.
+
+
 
 
 
