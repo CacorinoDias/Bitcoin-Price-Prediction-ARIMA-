@@ -21,3 +21,34 @@ I found an open dataset on Kaggle containing the historical bitcoin prices from 
 
 
 ![Alt text](https://github.com/CacorinoDias/Bitcoin-Price-Prediction-ARIMA-/blob/master/Images/Monthly_Reshaped.PNG?raw=true "Title")
+
+### Analysis:
+
+
+* ***First Step*** Sheck if the time series is stationary: To do so we will use the ***Dickey-Fuller Test***. Here the null hypothesis is that the Time series is non-stationary. in other words:
+
+** if the result is > 5% the data set is non-stationary.
+** if the result is < 5% the data set is stationary.
+
+* ***Second Step*** If it is not stationary, we will do a Box-Cox transformation to transform, as most statistical models assume error are normally distributed.
+* ***Third Step*** After That, we will try to apply Seasonal differencing to try to make the data non-stationary.
+* After that we will do a regular differencing.
+
+We will use a seasonal ARIMA model so the next sep is to determine the values of (p,q,d)(PQD) m = 12:
+
+
+* `p` is the order (number of time lags)
+* `q` is the order of the moving average
+* `d` is the degree of differing
+* `P` Q and D are the same but for the seasonal part of the ARIMA model.
+* `M` is the number f periods each season.
+
+
+
+
+
+
+
+
+
+
